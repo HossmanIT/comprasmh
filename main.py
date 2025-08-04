@@ -14,7 +14,7 @@ app = FastAPI(
     version=settings.API_VERSION
 )
 
-@app.post("/sync-recent-purchases3")
+@app.post("/sync-recent-purchasescmh", tags=["Sync"])
 async def sync_recent_purchases(db: Session = Depends(get_db)):
     """Endpoint para sincronizar compras recientes con Monday.com y actualizar SQL"""
     try:
