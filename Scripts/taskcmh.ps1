@@ -1,11 +1,11 @@
 # Ruta de los scripts Python
 $transferScript = "C:\Mondayapp\comprasmh\transfercmh.py"
 $syncScript = "C:\Mondayapp\comprasmh\sync_scriptcmh.py"
-$logFile = "C:\Logs\comprasmh.log"
-$transferOut = "C:\Logs\transfercmh_salida.log"
-$transferErr = "C:\Logs\transfercmh_error.log"
-$syncOut = "C:\Logs\synccmh_salida.log"
-$syncErr = "C:\Logs\synccmh_error.log"
+$logFile = "C:\Logs\comprascmh.log"
+$transferOut = "C:\Logs\transfer_salidacmh.log"
+$transferErr = "C:\Logs\transfer_errormh.log"
+$syncOut = "C:\Logs\sync_salidacmh.log"
+$syncErr = "C:\Logs\sync_errormh.log"
 
 # Ruta completa a python.exe (ajusta si usas entorno virtual)
 $pythonPath = "python.exe"
